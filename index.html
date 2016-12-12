@@ -5,14 +5,15 @@
 	<link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/queries.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Omnifood</title>
 </head>
 <body>
 	<header>
 		<nav>
-			<div class="row">
+			<div class="row nav-row">
 				<img src="src/img/logo-white.png" alt="Omnifood Logo" class="logo">
 				<ul class="main-nav">
 					<li><a href="#">Food Delivery</a></li>
@@ -136,9 +137,11 @@
 					<div>3</div>
 					<p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
 				</div>
-
-				<a href="#" class=btn-app><img src="src/img/download-app.svg" alt="App Store Button"></a>
-				<a href="#" class=btn-app><img src="src/img/download-app-android.png" alt="Play Store Button"></a>
+				<div class="btn-wrapper">
+					<a href="#" class=btn-app><img src="src/img/download-app.svg" alt="App Store Button"></a>
+					<a href="#" class=btn-app><img src="src/img/download-app-android.png" alt="Play Store Button"></a>
+				</div>
+				
 			</div>
 		</div>
 	</section>
@@ -399,4 +402,7 @@
 		</div>
 	</footer>
 </body>
+<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+<script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
 </html>
